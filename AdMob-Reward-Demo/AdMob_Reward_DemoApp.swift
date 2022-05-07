@@ -2,7 +2,7 @@
 //  AdMob_Reward_DemoApp.swift
 //  AdMob-Reward-Demo
 //
-//  Created by 宮本大新 on 2022/05/07.
+//  Created by TAISHIN MIYAMOTO on 2022/05/07.
 //
 
 import SwiftUI

@@ -1,0 +1,6 @@
+framework module Pods_AdMob_Reward_Demo {
+  umbrella header "Pods-AdMob-Reward-Demo-umbrella.h"
+
+  export *
+  module * { export * }
+}

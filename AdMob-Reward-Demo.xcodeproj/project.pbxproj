@@ -11,14 +11,21 @@
 		1C5DFF7B2826A2D400ED3F9E /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5DFF7A2826A2D400ED3F9E /* ContentView.swift */; };
 		1C5DFF7D2826A2D400ED3F9E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5DFF7C2826A2D400ED3F9E /* Assets.xcassets */; };
 		1C5DFF802826A2D400ED3F9E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1C5DFF7F2826A2D400ED3F9E /* Preview Assets.xcassets */; };
+		1C5DFF882826A40A00ED3F9E /* Reward.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C5DFF872826A40A00ED3F9E /* Reward.swift */; };
+		3E432D68FC9D32A539B6441A /* Pods_AdMob_Reward_Demo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 00BF37D7E160F1376F32026C /* Pods_AdMob_Reward_Demo.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		00BF37D7E160F1376F32026C /* Pods_AdMob_Reward_Demo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_AdMob_Reward_Demo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5DFF752826A2D400ED3F9E /* AdMob-Reward-Demo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "AdMob-Reward-Demo.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		1C5DFF782826A2D400ED3F9E /* AdMob_Reward_DemoApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AdMob_Reward_DemoApp.swift; sourceTree = "<group>"; };
 		1C5DFF7A2826A2D400ED3F9E /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		1C5DFF7C2826A2D400ED3F9E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1C5DFF7F2826A2D400ED3F9E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		1C5DFF872826A40A00ED3F9E /* Reward.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Reward.swift; sourceTree = "<group>"; };
+		1C5DFF892826A64E00ED3F9E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		41A7DBF4C3FEAB780F7B8EA0 /* Pods-AdMob-Reward-Demo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Reward-Demo.release.xcconfig"; path = "Target Support Files/Pods-AdMob-Reward-Demo/Pods-AdMob-Reward-Demo.release.xcconfig"; sourceTree = "<group>"; };
+		7417FD310E883E104B54133A /* Pods-AdMob-Reward-Demo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-AdMob-Reward-Demo.debug.xcconfig"; path = "Target Support Files/Pods-AdMob-Reward-Demo/Pods-AdMob-Reward-Demo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -26,6 +33,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3E432D68FC9D32A539B6441A /* Pods_AdMob_Reward_Demo.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -37,6 +45,8 @@
 			children = (
 				1C5DFF772826A2D400ED3F9E /* AdMob-Reward-Demo */,
 				1C5DFF762826A2D400ED3F9E /* Products */,
+				D7109E30B1CE68DD5BC79070 /* Pods */,
+				7B6C98E1C9C1D63707C9D9A9 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -51,8 +61,10 @@
 		1C5DFF772826A2D400ED3F9E /* AdMob-Reward-Demo */ = {
 			isa = PBXGroup;
 			children = (
+				1C5DFF892826A64E00ED3F9E /* Info.plist */,
 				1C5DFF782826A2D400ED3F9E /* AdMob_Reward_DemoApp.swift */,
 				1C5DFF7A2826A2D400ED3F9E /* ContentView.swift */,
+				1C5DFF862826A3AA00ED3F9E /* AdMob */,
 				1C5DFF7C2826A2D400ED3F9E /* Assets.xcassets */,
 				1C5DFF7E2826A2D400ED3F9E /* Preview Content */,
 			);
@@ -67,6 +79,31 @@
 			path = "Preview Content";
 			sourceTree = "<group>";
 		};
+		1C5DFF862826A3AA00ED3F9E /* AdMob */ = {
+			isa = PBXGroup;
+			children = (
+				1C5DFF872826A40A00ED3F9E /* Reward.swift */,
+			);
+			path = AdMob;
+			sourceTree = "<group>";
+		};
+		7B6C98E1C9C1D63707C9D9A9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				00BF37D7E160F1376F32026C /* Pods_AdMob_Reward_Demo.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D7109E30B1CE68DD5BC79070 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7417FD310E883E104B54133A /* Pods-AdMob-Reward-Demo.debug.xcconfig */,
+				41A7DBF4C3FEAB780F7B8EA0 /* Pods-AdMob-Reward-Demo.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -74,9 +111,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 1C5DFF832826A2D400ED3F9E /* Build configuration list for PBXNativeTarget "AdMob-Reward-Demo" */;
 			buildPhases = (
+				8E32852766DAF87B514FD282 /* [CP] Check Pods Manifest.lock */,
 				1C5DFF712826A2D400ED3F9E /* Sources */,
 				1C5DFF722826A2D400ED3F9E /* Frameworks */,
 				1C5DFF732826A2D400ED3F9E /* Resources */,
+				9FE7C6C53D9FFA97AEAA26E9 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -132,11 +171,54 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		8E32852766DAF87B514FD282 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-AdMob-Reward-Demo-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9FE7C6C53D9FFA97AEAA26E9 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMob-Reward-Demo/Pods-AdMob-Reward-Demo-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-AdMob-Reward-Demo/Pods-AdMob-Reward-Demo-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-AdMob-Reward-Demo/Pods-AdMob-Reward-Demo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1C5DFF712826A2D400ED3F9E /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1C5DFF882826A40A00ED3F9E /* Reward.swift in Sources */,
 				1C5DFF7B2826A2D400ED3F9E /* ContentView.swift in Sources */,
 				1C5DFF792826A2D400ED3F9E /* AdMob_Reward_DemoApp.swift in Sources */,
 			);
@@ -261,6 +343,7 @@
 		};
 		1C5DFF842826A2D400ED3F9E /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7417FD310E883E104B54133A /* Pods-AdMob-Reward-Demo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -270,11 +353,13 @@
 				DEVELOPMENT_TEAM = 69BMRJXU5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AdMob-Reward-Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -290,6 +375,7 @@
 		};
 		1C5DFF852826A2D400ED3F9E /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 41A7DBF4C3FEAB780F7B8EA0 /* Pods-AdMob-Reward-Demo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
@@ -299,11 +385,13 @@
 				DEVELOPMENT_TEAM = 69BMRJXU5B;
 				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "AdMob-Reward-Demo/Info.plist";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
 				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				IPHONEOS_DEPLOYMENT_TARGET = 14.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
