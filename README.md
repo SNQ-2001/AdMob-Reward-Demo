@@ -1,4 +1,6 @@
 # AdMob-Reward-Demo
+https://qiita.com/SNQ-2001/items/253173abefc6f90f86ea
+
 ## Official Documents
 [Get Started](https://developers.google.com/admob/ios/quick-start)
 
