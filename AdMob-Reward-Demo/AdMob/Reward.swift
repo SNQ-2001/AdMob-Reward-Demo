@@ -13,7 +13,6 @@ class Reward: NSObject, GADFullScreenContentDelegate, ObservableObject {
 
     override init() {
         super.init()
-        LoadReward()
     }
 
     // リワード広告の読み込み
@@ -38,7 +37,6 @@ class Reward: NSObject, GADFullScreenContentDelegate, ObservableObject {
             ad.present(fromRootViewController: root!, userDidEarnRewardHandler: {
                 print("😍: 報酬を獲得しました")
                 self.rewardLoaded = false
-                self.LoadReward()
             })
         } else {
             print("😭: 広告の準備ができていませんでした")
